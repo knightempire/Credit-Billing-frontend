@@ -1,6 +1,7 @@
 "use client"
 
 import type React from "react"
+import GoogleLoginButton from './GoogleLoginButton';
 
 import Link from "next/link"
 import { useState } from "react"
@@ -87,6 +88,9 @@ export default function LoginPage() {
             </Link>
           </div>
         </CardFooter>
+              <div className="mt-6">
+          <GoogleLoginButton />
+        </div>
       </Card>
     </div>
   )
